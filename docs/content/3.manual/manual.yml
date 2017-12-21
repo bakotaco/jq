@@ -526,7 +526,7 @@ sections:
           Once you understand the "," operator, you can look at jq's array
           syntax in a different light: the expression `[1,2,3]` is not using a
           built-in syntax for comma-separated arrays, but is instead applying
-          the `[]` operator (collect results) to the expression 1,2,3 (which
+          the `[]` operator (collect results) to the expression `1,2,3` (which
           produces three different results).
 
           If you have a filter `X` that produces four results,
